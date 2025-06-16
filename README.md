@@ -1,22 +1,47 @@
-A Python-based interactive application for visualizing and understanding various graph algorithms. The simulator provides an intuitive graphical interface for creating graphs and animating algorithms such as Breadth-First Search (BFS), Depth-First Search (DFS), Prim's Algorithm, and Kruskal's Algorithm.
+# Graph Algorithm Visualizer
 
-Features
-Interactive Graph Creation:
+An interactive **Graph Algorithm Simulator** built using Python's **Tkinter GUI framework**, **NetworkX**, and **Matplotlib**.  
+The tool visually demonstrates popular **Graph Traversal** and **Minimum Spanning Tree (MST)** algorithms through step-by-step animations.
 
-Add nodes and edges manually with visual feedback.
-Randomize edge weights for quick testing.
-Clear the canvas to start over.
-Graph Traversal Algorithms:
+---
 
-Animates BFS and DFS, showcasing step-by-step exploration of the graph.
-Highlights visited nodes and provides data structure snapshots (queue/stack).
-Minimum Spanning Tree (MST) Algorithms:
+## 🎯 Key Features
 
-Demonstrates Prim's and Kruskal's algorithms with dynamic visualization.
-Highlights the edges in the MST as they're added.
-Pastel Themed Visualization:
+- **Algorithm Categories:**
+  - Graph Traversal: BFS (Breadth-First Search) & DFS (Depth-First Search)
+  - MST Algorithms: Prim's Algorithm & Kruskal's Algorithm
 
-User-friendly design with customizable colors to enhance visual appeal.
-Multi-Threaded Simulation:
+- **Interactive Graph Building:**
+  - Click-based node and edge creation using Matplotlib canvas.
+  - Random edge weights generation with built-in button.
+  - Canvas clearing & reset functionality.
 
-Each algorithm animation runs independently for a smooth user experience.
+- **Real-Time Visualization:**
+  - Step-by-step animations for BFS, DFS, Prim’s, and Kruskal’s algorithms.
+  - Separate windows for side-by-side comparisons of algorithms.
+  - Displays data structures (Queue, Stack, Edge List) used internally during simulations.
+  - Visual time complexity display for each algorithm.
+
+- **Beautiful Pastel-Themed Interface:**
+  - Custom pastel color palette.
+  - User-friendly buttons for controlling modes and simulations.
+
+---
+
+## 📦 Technologies Used
+
+- **Python 3**
+- **Tkinter** – GUI Development
+- **NetworkX** – Graph data structure and algorithms
+- **Matplotlib** – Graph drawing & animation
+- **heapq** – Priority queue implementation (Prim's)
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/graph-algorithm-visualizer.git
+cd graph-algorithm-visualizer
